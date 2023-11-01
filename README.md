@@ -21,8 +21,9 @@
   コマンドプロンプトで、以下の通り入力し、enterする。
   npm i -D playwright
 
-4) ここまでで、実行環境が、完成した。
+4) 
 
-5) githubからダウンロードした、 
+5) githubからダウンロードした、 standfm_gakkyokushinsei-main.zip を解凍し、standfm_gakkyokushinsei-mainをユーザープロファイルの下にコピーする。
+   
 
 
