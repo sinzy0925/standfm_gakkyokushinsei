@@ -1,7 +1,10 @@
+const testmode     = true;   //false [する]楽曲申請・投稿設定更新　true [しない]楽曲申請・投稿設定更新
+//const testmode     = false;   //false [する]楽曲申請・投稿設定更新　true [しない]楽曲申請・投稿設定更新
+
+const headlessMode = false;  //false 画面あり　true 画面なし
+
 //npx playwright codegen
 
-const headlessMode = false;//false 画面あり　true 画面なし
-const testmode     = true;//false [する]楽曲申請・投稿設定更新　true [しない]楽曲申請・投稿設定更新
 
 const { chromium } = require('playwright');
 const wtimeout =   500;
