@@ -22,8 +22,9 @@
   npm i -D playwright
 
 4) https://github.com/sinzy0925/standfm_gakkyokushinsei にアクセスして、standfm_gakkyokushinsei-main.zipをダウンロードする。
+  https://github.com/sinzy0925/standfm_gakkyokushinsei画面の中央より少し右あたりに緑色のCODEというところがありますので、クリックします。
 
-5) githubからダウンロードした、 standfm_gakkyokushinsei-main.zip を解凍し、standfm_gakkyokushinsei-mainをユーザープロファイルの下にコピーする。
+6) githubからダウンロードした、 standfm_gakkyokushinsei-main.zip を解凍し、standfm_gakkyokushinsei-mainをユーザープロファイルの下にコピーする。
   ユーザープロファイルは、上記２）で表示させたフォルダ（ディレクトリ）です。
 
 7) standfm_gakkyokushinsei-mainフォルダのstart.bat　をダブルクリックするとアプリが実行されます。
