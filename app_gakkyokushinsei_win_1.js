@@ -35,10 +35,10 @@ let text1 = `Server listening on port ${PORT}...`;
   //let gakkyoku     = '090-9686-8,1\n'//090-9686-8,1
   let gakkyoku     = '';//'N00501449,10\n'
   koumoku = process.argv[2];
-  console.log(koumoku);
+  //console.log(koumoku);
   if(koumoku != ''){
     let koumokuArr = koumoku.split('^');//mac linux \n  //win ^
-    console.log(koumokuArr);	
+    //console.log(koumokuArr);	
     let ii = 0;    
     for(let i = 0 ; i < koumokuArr.length ; i++){
       if(koumokuArr[0] != ''){
@@ -135,21 +135,21 @@ let text1 = `Server listening on port ${PORT}...`;
 
     if(j != 0 && gakuArr[j][1] == gakuArr[j-1][1]){
           samelistNo=true;
-          console.log(['samelistNo',samelistNo])
+          //console.log(['samelistNo',samelistNo])
     }else{
           samelistNo=false;
-          console.log(['samelistNo',samelistNo])
+          //console.log(['samelistNo',samelistNo])
     }
 
     if(j == gakuArr.length -1){
           go_editArchive=true;
-          console.log(['go_editArchive',go_editArchive])
+          //console.log(['go_editArchive',go_editArchive])
     }else if(j != gakuArr.length -1 && gakuArr[j][1] != gakuArr[j+1][1]){
           go_editArchive=true;
-          console.log(['go_editArchive',go_editArchive])
+          //console.log(['go_editArchive',go_editArchive])
     }else{
           go_editArchive=false;
-          console.log(['go_editArchive',go_editArchive])
+          //console.log(['go_editArchive',go_editArchive])
     }
 
     if(JorN == 'J' ){
