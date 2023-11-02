@@ -2,23 +2,23 @@ rem @echo off
 setlocal EnableDelayedExpansion
 rem set LF=^
 
-rem åŒã˜ãƒ•ã‚©ãƒ«ãƒ€ã«ã‚ã‚‹ã€README.md ã‚’ã‚ˆãèª­ã‚“ã§ã‹ã‚‰å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
-rem å‡¦ç†å¾Œã«ã€è‡ªåˆ†ã®ãƒ¡ãƒ«ã‚¢ãƒ‰ã«ã€æ¥½æ›²ç”³è«‹ãŒã§ããŸæ—¨ã®ãƒ¡ãƒ¼ãƒ«ãŒæ¥ãŸã“ã¨ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚
-rem å‡¦ç†å¾Œã«ã€log.logãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç¢ºèªã—ã¦ãã ã•ã„ã€‚
-rem 1è¡Œç›®å¤‰æ›´ä¸å¯ cd %USERPROFILE%\standfm_gakkyokushinsei-main
-rem 2è¡Œç›®å¤‰æ›´ä¸å¯ node app_gakkyokushinsei_win_1.js ^
-rem 3è¡Œç›®^ã¨^ã®é–“ã«ãƒ¡ãƒ«ã‚¢ãƒ‰è¨˜å…¥
-rem 4è¡Œç›®^ã¨^ã®é–“ã«ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰è¨˜å…¥
-rem 5è¡Œç›®ä»¥é™^"ã¨"^ã®é–“ã« ä½œå“ã‚³ãƒ¼ãƒ‰,ã‚¢ãƒ¼ã‚«ã‚¤ãƒ–é †,//æ›²å/æ­Œæ‰‹å ã‚’è¨˜å…¥ â€»^"ã¨"^ã§å›²ã‚€ã“ã¨
-rem å¤‰æ›´ä¸å¯ " > %USERPROFILE%\standfm_gakkyokushinsei-main\log.log"
+rem “¯‚¶ƒtƒHƒ‹ƒ_‚É‚ ‚éAREADME.md ‚ð‚æ‚­“Ç‚ñ‚Å‚©‚çŽÀs‚µ‚Ä‚­‚¾‚³‚¢B
+rem ˆ—Œã‚ÉAŽ©•ª‚Ìƒƒ‹ƒAƒh‚ÉAŠy‹È\¿‚ª‚Å‚«‚½Ž|‚Ìƒ[ƒ‹‚ª—ˆ‚½‚±‚Æ‚ðŠm”F‚µ‚Ä‚­‚¾‚³‚¢B
+rem ˆ—Œã‚ÉAlog.logƒtƒ@ƒCƒ‹‚ðŠm”F‚µ‚Ä‚­‚¾‚³‚¢B
+rem 1s–Ú•ÏX•s‰Â cd %USERPROFILE%\standfm_gakkyokushinsei-main
+rem 2s–Ú•ÏX•s‰Â node app_gakkyokushinsei_win_1.js ^
+rem 3s–Ú^‚Æ^‚ÌŠÔ‚Éƒƒ‹ƒAƒh‹L“ü
+rem 4s–Ú^‚Æ^‚ÌŠÔ‚ÉƒpƒXƒ[ƒh‹L“ü
+rem 5s–ÚˆÈ~^"‚Æ"^‚ÌŠÔ‚É ì•iƒR[ƒh,ƒA[ƒJƒCƒu‡,//‹È–¼/‰ÌŽè–¼ ‚ð‹L“ü ¦’ˆÓF^"‚Æ"^‚ÅˆÍ‚Þ‚±‚Æ
+rem •ÏX•s‰Â " > %USERPROFILE%\standfm_gakkyokushinsei-main\log.log"
 
 
 cd %USERPROFILE%\standfm_gakkyokushinsei-main
 node app_gakkyokushinsei_win_1.js ^
 ^mail^
 ^pass^
-^"096-5892-1,1,//super star/é•·æ¸•å‰›"^
-^"002-3537-7,2,//æ‚ªå¥³/ä¸­å³¶ã¿ã‚†ã"^
+^"096-5892-1,1,//super star/’·Ÿº„"^
+^"002-3537-7,2,//ˆ«—/’†“‡‚Ý‚ä‚«"^
 " > %USERPROFILE%\standfm_gakkyokushinsei-main\log.log"
 
 start notepad %USERPROFILE%\standfm_gakkyokushinsei-main\log.log"
