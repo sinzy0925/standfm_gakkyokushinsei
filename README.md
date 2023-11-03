@@ -37,11 +37,15 @@ windowsキー + R を押し、「ファイル名を指定して実行」画面�
 npm i -D playwright
 
 
-4)https://github.com/sinzy0925/standfm_gakkyokushinsei にアクセスして、standfm_gakkyokushinsei-main.zipをダウンロードする。
+4)https://github.com/sinzy0925/standfm_gakkyokushinsei にアクセスして、
 
-https://github.com/sinzy0925/standfm_gakkyokushinsei 画面の中央より少し右あたりに緑色の <>CODE というところがありますので、
+standfm_gakkyokushinsei-main.zipをダウンロードする。
 
-クリックします。少し下にDownload ZIP が表示されるので、そこをクリックすれば、ダウンロードできます。
+https://github.com/sinzy0925/standfm_gakkyokushinsei 画面の中央より少し右あたりに
+
+緑色の <>CODE というところがありますので、クリックします。
+
+少し下にDownload ZIP が表示されるので、そこをクリックすれば、ダウンロードできます。
 
 
 5) githubからダウンロードした、 standfm_gakkyokushinsei-main.zip を解凍し、
@@ -50,6 +54,7 @@ standfm_gakkyokushinsei-mainをユーザープロファイルの下にコピー�
 
 ユーザープロファイルは、上記２）で表示させたフォルダ（ディレクトリ）です。
 
+
 6) standfm_gakkyokushinsei-mainフォルダのstart.bat　をダブルクリックするとアプリが実行されます。
 
 アプリが実行されると、Google Chrome ブラウザが起動され、stand.fmにログインしようとします。
@@ -57,6 +62,7 @@ standfm_gakkyokushinsei-mainをユーザープロファイルの下にコピー�
 しかし、メルアドとパスワードの設定が間違っているので、エラーになって自動的に終わります。
 
 その後、自動的にログが表示されます。以下のようになっていると、正解です。
+
 
 メルアド　　：mail**********
 
@@ -136,7 +142,12 @@ stand.fmへログインする為のメルアド宛に、楽曲申請をした旨
 
 元々自分で書いていた情報は消しません。
 
+
 質問は sinzy0925@gmail.com まで。 
+
+この説明は私が、誰かのWindowsへインストールする際の備忘録として作ってます。
+
+必要な方は、メールをいただければ、遠隔操作で上記の作業をあなたのPCで行うことができます。
 
 以上
 
