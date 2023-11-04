@@ -1,5 +1,5 @@
-const testmode     = true;   //false [する]楽曲申請・投稿設定更新　true [しない]楽曲申請・投稿設定更新
-//const testmode     = false;   //false [する]楽曲申請・投稿設定更新　true [しない]楽曲申請・投稿設定更新
+//const testmode     = true;   //false [する]楽曲申請・投稿設定更新　true [しない]楽曲申請・投稿設定更新
+const testmode     = false;   //false [する]楽曲申請・投稿設定更新　true [しない]楽曲申請・投稿設定更新
 
 const headlessMode = false;  //false 画面あり　true 画面なし
 
@@ -171,7 +171,7 @@ let text1 = `Server listening on port ${PORT}...`;
             res_gakkyoku2=[]
             res_gakkyoku2.push(res_gakkyoku)
         }
-        console.log(res_gakkyoku2)
+        //console.log(res_gakkyoku2)
         console.log('['+standfm_listNo + ']配信状況 = 配信OK')
         console.log('['+standfm_listNo + ']JASRACデータ = ' + res_gakkyoku)
       }else{
@@ -184,7 +184,9 @@ let text1 = `Server listening on port ${PORT}...`;
           console.log('Start::::楽曲申請(JASRAC)')
           res_gakkyokushinsei = await gakkyokushinsei(headlessMode,testmode,gakuArr,j,res_gakkyoku,resArr,JorN,standfm_id);
         if(go_editArchive == true){
+          if(res_gakkyokushinsei == 0){
             res_gakkyokushinsei = await gakkyokushinsei2(headlessMode,testmode,gakuArr,j,res_gakkyoku,res_gakkyoku2,resArr,JorN,standfm_id);
+          }
         }
       
         if(gakuArr.length == 1){
@@ -254,7 +256,7 @@ let text1 = `Server listening on port ${PORT}...`;
             res_gakkyoku2=[]
             res_gakkyoku2.push(res_gakkyoku)
         }
-        console.log(res_gakkyoku2)
+        //console.log(res_gakkyoku2)
         console.log('配信状況 = 配信OK')
         console.log('NexToneデータ = ' + res_gakkyoku)
       }else{
@@ -267,7 +269,9 @@ let text1 = `Server listening on port ${PORT}...`;
           console.log('Start::::楽曲申請(NexTone)')
           res_gakkyokushinsei = await gakkyokushinsei(headlessMode,testmode,gakuArr,j,res_gakkyoku,resArr,JorN,standfm_id);
 	if(go_editArchive == true){
+          if(res_gakkyokushinsei == 0){
             res_gakkyokushinsei = await gakkyokushinsei2(headlessMode,testmode,gakuArr,j,res_gakkyoku,res_gakkyoku2,resArr,JorN,standfm_id);
+          }
         }
 
         if(gakuArr.length == 1){
